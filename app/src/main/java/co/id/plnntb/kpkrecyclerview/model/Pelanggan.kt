@@ -6,5 +6,4 @@ class Pelanggan(
     val alamat: String,
     val tarif: String,
     val daya: String
-
 )

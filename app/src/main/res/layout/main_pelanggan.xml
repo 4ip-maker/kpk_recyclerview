@@ -1,36 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:padding="10dp"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
 
     <TextView
+        android:id="@+id/idpel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="441234567890"
-        android:textStyle="bold"
+        android:textColor="#9400D3"
         android:textSize="15dp"
-        android:textColor="#0C74AC"
-        android:id="@+id/idpel"/>
+        android:textStyle="bold" />
+
     <TextView
+        android:id="@+id/nama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SIFULAN"
-        android:textStyle="bold"
+        android:textColor="#4B0082"
         android:textSize="20dp"
-        android:textColor="#068126"
-        android:id="@+id/nama"/>
+        android:textStyle="bold" />
+
     <TextView
+        android:id="@+id/alamat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="jl. yos sudarso no.1"
-        android:textStyle="italic"
-        android:id="@+id/alamat"/>
+        android:textStyle="italic" />
+
     <TextView
+        android:id="@+id/trfdya"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="B2/197000"
         android:textSize="15dp"
-        android:textStyle="bold"
-        android:id="@+id/trfdya"/>
+        android:textStyle="bold" />
 </LinearLayout>
